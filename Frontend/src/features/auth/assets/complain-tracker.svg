@@ -1,0 +1,33 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <circle cx="128" cy="128" r="120" fill="#0F172A"/>
+
+  <!-- Speech Bubble -->
+  <path d="M60 90 
+           Q60 60 90 60 
+           H166 
+           Q196 60 196 90 
+           V130 
+           Q196 160 166 160 
+           H120 
+           L90 190 
+           V160 
+           H90 
+           Q60 160 60 130 Z"
+        fill="#1E293B"/>
+
+  <!-- Microphone -->
+  <rect x="116" y="95" width="24" height="42" rx="12" fill="#38BDF8"/>
+  <line x1="128" y1="137" x2="128" y2="155" stroke="#38BDF8" stroke-width="3"/>
+  <line x1="105" y1="155" x2="151" y2="155" stroke="#38BDF8" stroke-width="3"/>
+
+  <!-- Sound Waves -->
+  <path d="M150 100 Q170 115 150 130" stroke="#38BDF8" stroke-width="2" fill="none"/>
+  <path d="M160 95 Q185 115 160 135" stroke="#38BDF8" stroke-width="2" fill="none"/>
+
+  <!-- Alert Badge -->
+  <circle cx="180" cy="70" r="14" fill="#EF4444"/>
+  <text x="180" y="75" text-anchor="middle" font-size="14" fill="white" font-family="Arial">!</text>
+
+</svg>
